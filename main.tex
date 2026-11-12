@@ -1,5 +1,7 @@
 \documentclass{article}
 \usepackage{ngerman}
+\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+\addbibresource{literatur.bib}
 \begin{document}
 \tableofcontents
 \newpage
@@ -38,4 +40,19 @@ Ein Honeypot ist ein abgeschottetes System, mit eigenem Vlan.
 \caption{Vorteile und Nachteile von Honeypots}
 \label{tab:honeypot-vor-nachteile}
 \end{table}
+
+\begin{equation}
+v = \frac{s}{t}
+\label{eq:geschwindigkeit}
+\end{equation}
+
+\begin{equation}
+c = \sqrt{a^2 + b^2}
+\label{eq:pythagoras}
+\end{equation}
+
+\newpage
+
+Ein Honeypot ist ein Köder-Dienst ohne produktiven Nutzen \cite{spitzner2002}.
+\printbibliography
 \end{document}
