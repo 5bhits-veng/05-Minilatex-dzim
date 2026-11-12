@@ -1,0 +1,75 @@
+# ===== LaTeX Hilfsdateien =====
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.lol
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.xdv
+*.idx
+*.ilg
+*.ind
+*.glo
+*.gls
+*.glg
+*.acn
+*.acr
+*.alg
+*.ist
+*.run.xml
+*.thm
+*.xwm
+*.figlist
+*.makefile
+*.pyg
+*.auxlock
+
+# ===== BibTeX / Biber =====
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+
+# ===== minted / Lua / TikZ =====
+_minted*
+*.tikz.aux
+*.pgf-plot.*
+*-figure*.pdf
+*-figure*.md5
+*-figure*.dpth
+*-figure*.log
+*.lua.log
+
+# ===== Build-Ordner =====
+build/
+out/
+_build/
+
+# ===== Ausgabe (PDF) =====
+# Kompiliertes PDF nicht versionieren.
+# Falls die Abgabe-PDF im Repo liegen soll, diese Zeile entfernen
+# oder unten eine Ausnahme setzen.
+main.pdf
+
+# ===== Editor / OS =====
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+*.tmp
+Thumbs.db
+
+# ===== Beispiel: Ausnahmen =====
+# !abgabe/diplomarbeit.pdf
