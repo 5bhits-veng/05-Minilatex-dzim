@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage{ngerman}
+\usepackage{graphicx}
 \usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
 \addbibresource{literatur.bib}
 \begin{document}
@@ -55,4 +56,11 @@ c = \sqrt{a^2 + b^2}
 
 Ein Honeypot ist ein Köder-Dienst ohne produktiven Nutzen \cite{spitzner2002}.
 \printbibliography
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{bilder/Honeypot_diagram.jpg}
+  \caption{Honeypot}
+  \label{fig:honeypot}
+\end{figure}
 \end{document}
