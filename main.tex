@@ -1,10 +1,41 @@
 \documentclass{article}
-
+\usepackage{ngerman}
 \begin{document}
 \tableofcontents
 \newpage
 \section{Einleitung}
+Einleitung für das Dokument.
+\subsection{Test}
+Testinhalt.
+\subsection{Honeypot}
+Ein Honeypot ist ein abgeschottetes System, mit eigenem Vlan.
 
-
-
+\begin{itemize}
+\item Honeypots werden verwendet, um Angreifer zu fangen und Informationen über ihre Methoden zu sammeln.
+\item Sie sind eine Form der Netzwerksicherheit.
+\item Honeypots können selber programmiert werden oder als App installiert werden.
+\end{itemize}
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|p{0.45\textwidth}|p{0.45\textwidth}|}
+\hline
+\textbf{Vorteile} & \textbf{Nachteile} \\
+\hline
+\begin{itemize}
+  \item Angreifer werden abgelenkt
+  \item Informationen über Angreifer werden gesammelt
+  \item Honeypots können als Frühwarnsystem dienen
+  \item Honeypots können zur Forschung und Entwicklung von Sicherheitsmaßnahmen genutzt werden
+\end{itemize}
+&
+\begin{itemize}
+  \item Honeypots können selbst Ziel von Angriffen werden
+  \item Honeypots können Ressourcen beanspruchen
+  \item Honeypots können rechtliche Probleme verursachen
+\end{itemize} \\
+\hline
+\end{tabular}
+\caption{Vorteile und Nachteile von Honeypots}
+\label{tab:honeypot-vor-nachteile}
+\end{table}
 \end{document}
